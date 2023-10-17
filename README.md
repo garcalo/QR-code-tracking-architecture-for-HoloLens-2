@@ -8,14 +8,15 @@ QR code tracking architecture developed for HoloLens 2. It requires the use of .
    - Mixed Reality Toolkit Standard Assets - version 2.8.3
    - Mixed Reality Toolkit Tools - version 2.8.3
    - Mixed Reality OpenXR Plugin - version 1.9.0
+<img width="600" alt="Captura de pantalla 2023-10-17 122327" src="https://github.com/garcalo/QR-code-tracking-architecture-for-HoloLens-2/assets/133862204/a216ac5b-424d-413a-b16b-473251028767">
+<img width="600" alt="platform support" src="https://github.com/garcalo/QR-code-tracking-architecture-for-HoloLens-2/assets/133862204/a0e48438-1fed-4089-af00-1b48a3f24471">
 
-  <img width="600" alt="Captura de pantalla 2023-10-17 122327" src="https://github.com/garcalo/QRCode_tracking_in_HoloLens2/assets/133862204/ad89bfe5-2db7-47b9-b30c-014c8c8781e7">
-  <img width="600" alt="platform support" src="https://github.com/garcalo/QRCode_tracking_in_HoloLens2/assets/133862204/f11c01d5-b746-4ee8-b123-71e4e8dc1c30">
+
   
 - Install NuGet for Unity following the repository instructions: https://github.com/GlitchEnzo/NuGetForUnity. I recommend the install via .unitypackage file
     - Inside Unity, use NuGet to install the Microsoft.MixedReality.QR. For this, click on the NuGet tab, then on Manage NuGet Packages. This way you will obtain a window where you can search for the package. This can be seen in the image below:
       
-      <img width="500" alt="install microsoft mixed reality qr from nuget" src="https://github.com/garcalo/QRCode_tracking_in_HoloLens2/assets/133862204/ae2f77f0-087f-4381-9632-efa96a916bc2">
+<img width="500" alt="install microsoft mixed reality qr from nuget" src="https://github.com/garcalo/QR-code-tracking-architecture-for-HoloLens-2/assets/133862204/32a02041-5721-413d-ad5f-6551f89761f2">
 
 Once this is done, the QR code tracking app sample is ready to use. For testing it, the user can either deploy the app into the HoloLens 2 device building the project in Unity and deploying via Visual Studio, or use the Holographic Remoting tab in Unity to connect the device using an ip address and run the app in the computer and screencast the functionality into the HoloLens 2 device.
 
@@ -56,7 +57,8 @@ Once this is done, the QR code tracking app sample is ready to use. For testing 
 
 ## QR Code Tracking in Augmented Reality
 
-![qrCodeScriptsDiagram-v2](https://github.com/garcalo/QRCode_tracking_in_HoloLens2/assets/133862204/fac60b0b-0762-4207-b4c0-870f71d0ebc0)
+
+![qrCodeScriptsDiagram-v2](https://github.com/garcalo/QR-code-tracking-architecture-for-HoloLens-2/assets/133862204/dbbbdf01-9f89-403e-8d29-56ab13935901)
 
 As depicted in the diagram above, the QR code tracking process in this AR application is orchestrated as follows:
 
