@@ -1,4 +1,4 @@
-# QRCode_tracking_in_HoloLens2
+# QRCode tracking in HoloLens2
 QR code tracking architecture developed for HoloLens 2. It requires the use of .NET Microsoft QR code libraries and Microsoft Mixed Reality Toolkit. Developed in Unity 2021.3.9f1. Compatible with the Holographic Remoting Player. 
 
 ## Instructions for using the QR code tracking Sample app
