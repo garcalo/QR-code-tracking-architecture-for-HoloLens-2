@@ -8,15 +8,17 @@ QR code tracking architecture developed for HoloLens 2. It requires the use of .
    - Mixed Reality Toolkit Standard Assets - version 2.8.3
    - Mixed Reality Toolkit Tools - version 2.8.3
    - Mixed Reality OpenXR Plugin - version 1.9.0
-<img width="600" alt="Captura de pantalla 2023-10-17 122327" src="https://github.com/garcalo/QR-code-tracking-architecture-for-HoloLens-2/assets/133862204/a216ac5b-424d-413a-b16b-473251028767">
-<img width="600" alt="platform support" src="https://github.com/garcalo/QR-code-tracking-architecture-for-HoloLens-2/assets/133862204/a0e48438-1fed-4089-af00-1b48a3f24471">
+
+<img width="686" alt="Captura de pantalla 2023-10-17 122327" src="https://github.com/garcalo/QR-code-tracking-architecture-for-HoloLens-2/assets/133862204/bcc3a9f9-ca99-41de-bbdd-1f9bd89afe37">
+<img width="688" alt="platform support" src="https://github.com/garcalo/QR-code-tracking-architecture-for-HoloLens-2/assets/133862204/9cd6fb26-ee01-4eda-a32a-46ee9f4210b3">
 
 
   
 - Install NuGet for Unity following the repository instructions: https://github.com/GlitchEnzo/NuGetForUnity. I recommend the install via .unitypackage file
     - Inside Unity, use NuGet to install the Microsoft.MixedReality.QR. For this, click on the NuGet tab, then on Manage NuGet Packages. This way you will obtain a window where you can search for the package. This can be seen in the image below:
       
-<img width="500" alt="install microsoft mixed reality qr from nuget" src="https://github.com/garcalo/QR-code-tracking-architecture-for-HoloLens-2/assets/133862204/32a02041-5721-413d-ad5f-6551f89761f2">
+<img width="334" alt="install microsoft mixed reality qr from nuget" src="https://github.com/garcalo/QR-code-tracking-architecture-for-HoloLens-2/assets/133862204/8e6f0c11-39be-4f71-a7cb-0f7081be60a7">
+
 
 Once this is done, the QR code tracking app sample is ready to use. For testing it, the user can either deploy the app into the HoloLens 2 device building the project in Unity and deploying via Visual Studio, or use the Holographic Remoting tab in Unity to connect the device using an ip address and run the app in the computer and screencast the functionality into the HoloLens 2 device.
 
